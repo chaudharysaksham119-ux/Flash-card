@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Project A",
+    "description": "A small vanilla JS game.",
+    "url": "project-a/",
+    "tags": ["javascript", "game"]
+  },
+  {
+    "title": "Project B",
+    "description": "React dashboard demo.",
+    "url": "https://yourname.github.io/project-b/",
+    "tags": ["react"],
+    "external": true
+  },
+  {
+    "title": "Project C",
+    "description": "Source only, no live demo.",
+    "url": "https://github.com/yourname/project-c",
+    "tags": ["python"],
+    "external": true
+  }
+]

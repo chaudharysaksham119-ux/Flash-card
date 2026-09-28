@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>📚 Flashcard Quiz</h1>
+      <p>Study smarter, one card at a time.</p>
+    </header>
+
+    <main>
+      <div class="counter" id="counter">Card 1 of 1</div>
+
+      <section class="card" id="card">
+        <div class="card-label">QUESTION</div>
+        <h2 id="question">Loading...</h2>
+
+        <div class="answer hidden" id="answerBox">
+          <div class="card-label">ANSWER</div>
+          <p id="answer"></p>
+        </div>
+
+        <button class="primary" id="showAnswerBtn">Show Answer</button>
+      </section>
+
+      <div class="navigation">
+        <button id="prevBtn">← Previous</button>
+        <button id="nextBtn">Next →</button>
+      </div>
+
+      <div class="actions">
+        <button id="addBtn">＋ Add</button>
+        <button id="editBtn">✎ Edit</button>
+        <button class="danger" id="deleteBtn">🗑 Delete</button>
+      </div>
+
+      <section class="form-panel hidden" id="formPanel">
+        <h2 id="formTitle">Add Flashcard</h2>
+        <input id="questionInput" type="text" placeholder="Enter question">
+        <textarea id="answerInput" placeholder="Enter answer"></textarea>
+        <div class="form-actions">
+          <button class="primary" id="saveBtn">Save</button>
+          <button id="cancelBtn">Cancel</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Flashcards are saved automatically in your browser.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
